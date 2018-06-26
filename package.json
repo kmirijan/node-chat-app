@@ -1,18 +1,24 @@
 {
-  "name": "y",
+  "name": "chat-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "9.7.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmirijan/node-chat-app.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+  "bugs": {
+    "url": "https://github.com/kmirijan/node-chat-app/issues"
+  },
+  "homepage": "https://github.com/kmirijan/node-chat-app#readme"
 }
